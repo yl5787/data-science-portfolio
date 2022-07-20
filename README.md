@@ -6,28 +6,30 @@ _Note: Data used in the projects (accessed under data directory) is for demonstr
 
 - ### Machine Learning
 
-  - [Supervised Learning: Iowa House Prices](https://github.com/yl5787/data-science-portfolio/blob/main/house-prices/house-prices.ipynb): Testing out several different advanced regression algorithms (Ridge, Lasso, Elastic Net, Random Forest, Gradient Boosting) to build a model that predicts house prices in Iowa based on 79 explanatory variables describing aspects of the houses. Determined which regression model best predicted house prices RMSE and R-squared.
+  - [Supervised Learning: Iowa House Prices](https://nbviewer.org/github/yl5787/data-science-portfolio/blob/main/house-prices/house-prices.ipynb): Testing out several different advanced regression algorithms (Ridge, Lasso, Elastic Net, Random Forest, Gradient Boosting) to build a model that predicts house prices in Iowa based on 79 explanatory variables describing aspects of the houses. Determined which regression model best predicted house prices RMSE and R-squared.
 
-  - [Supervised Learning: Titanic Survivors](https://github.com/yl5787/data-science-portfolio/blob/main/titanic/titanic.ipynb): Testing out several different classification algorithms (Random Forest, K-Nearest Neighbors, Decision Tree, Support Vector Machine) to build a model that predicts what sort of people were more likely to survive the Titanic. F1-score for model evaluation.
+  - [Supervised Learning: Titanic Survivors](https://nbviewer.org/github/yl5787/data-science-portfolio/blob/main/titanic/titanic.ipynb): Testing out several different classification algorithms (Random Forest, K-Nearest Neighbors, Decision Tree, Support Vector Machine) to build a model that predicts what sort of people were more likely to survive the Titanic. F1-score for model evaluation.
 
-  - [Predict Future Sales](https://github.com/yl5787/data-science-portfolio/blob/main/predicting-sales/predicting-sales.ipynb): Predicting total sales of every product and store in the next month based off a time-series dataset consisting of daily sales data. Feature engineering process includes producing Previous Value Benchmark and clipping true target values into [0,20] range as recommended by the author. To be updated.
+  - [Predict Future Sales](https://nbviewer.org/github/yl5787/data-science-portfolio/blob/main/predicting-sales/predicting-sales.ipynb): Predicting total sales of every product and store in the next month based off a time-series dataset consisting of daily sales data. Feature engineering process includes producing Previous Value Benchmark and clipping true target values into [0,20] range as recommended by the author. To be updated.
 
   _Tools: pandas, Matplotlib, seaborn, NumPy, SciPy, scikit-learn_
 
 - ### Natural Language Processing
 
-  - [Disaster Tweet Prediction](https://github.com/yl5787/data-science-portfolio/blob/main/disaster-tweets/disaster-tweets.ipynb): A model to predict which Tweets are about real disasters and which aren’t based on a dataset of 10,000 tweets using TF-IDF Vectorizer and Ridge Classifier for modeling and F1 score for evaluation. Exploratory data analysis and wordcloud visualization of tweets.
+  - [Disaster Tweet Prediction](https://nbviewer.org/github/yl5787/data-science-portfolio/blob/main/disaster-tweets/disaster-tweets.ipynb): A model to predict which Tweets are about real disasters and which aren’t based on a dataset of 10,000 tweets using TF-IDF Vectorizer and Ridge Classifier for modeling and F1 score for evaluation. Exploratory data analysis and wordcloud visualization of tweets.
 
   _Tools: pandas, NumPy, Matplotlib, seaborn, scikit-learn, wordcloud, NLTK, PIL_
 
 - ### Data Analysis and Visualization
 
-  - [World Bank Science and Technology Data Analysis](https://github.com/yl5787/data-science-portfolio/blob/main/world-bank-science-technology/world-bank-science-technology.ipynb): Exploratory and descriptive analysis, visualization, and statistical tests including t-tests and correlation
+  - [World Bank Science and Technology Data Analysis](https://nbviewer.org/github/yl5787/data-science-portfolio/blob/main/world-bank-science-technology/world-bank-science-technology.ipynb): Exploratory and descriptive analysis, visualization, and statistical tests including t-tests and correlation
+  
+  - [Hotel Booking Demand Analysis](https://github.com/yl5787/hotel-booking-demand)
 
-  _Tools: pandas, Matplotlib, seaborn, SciPy, NumPy_
+  _Tools: pandas, Matplotlib, seaborn, SciPy, NumPy, Plotly, scikit-learn, datetime, statsmodels_
   
 - ### Demonstration
 
-  - [Categorical Data Encoding](https://github.com/yl5787/data-science-portfolio/blob/main/encodings-for-categorical-data/encoding-demonstrations.ipynb): Three encoding methods (ordinal, one-hot, dummy) performed on the breast cancer dataset that classifies patient data as a recurrence or no recurrence of cancer. Uses logistic regression for prediction.
+  - [Categorical Data Encoding](https://nbviewer.org/github/yl5787/data-science-portfolio/blob/main/encodings-for-categorical-data/encoding-demonstrations.ipynb): Three encoding methods (ordinal, one-hot, dummy) performed on the breast cancer dataset that classifies patient data as a recurrence or no recurrence of cancer. Uses logistic regression for prediction.
 
   _Tools: pandas, NumPy, scikit-learn_
